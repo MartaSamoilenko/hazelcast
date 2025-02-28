@@ -8,21 +8,21 @@
     ```
     docker ps -a
     ```
-    ![alt text](image-1.png)
+    ![alt text](images/image-1.png)
 
 Observing the cluster in Management Center.
-![alt text](image.png)
+![alt text](images/image.png)
 
 No Locks vs Pesimistic Lock vs Optimistic Lock
 
-![](image-2.png)
-![](image-7.png)
+![](images/image-2.png)
+![](images/image-7.png)
 ---
-![](image-3.png)
-![](image-5.png)
+![](images/image-3.png)
+![](images/image-5.png)
 ---
-![](image-4.png)
-![alt text](image-6.png)
+![](images/image-4.png)
+![](images/image-6.png)
 
 ## Running the Queue
 ```
@@ -37,7 +37,7 @@ python queue_producer.py
 
 ### Result:
 
-![alt text](image-8.png)
-![alt text](image-9.png)
-![alt text](image-10.png)
+![](images/image-8.png)
+![](images/image-9.png)
+![](images/image-10.png)
 
