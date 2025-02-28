@@ -1,0 +1,22 @@
+hazelcast:
+  cluster-name: hello-world
+
+  map:
+    my-distributed-map:
+      backup-count: 1
+    
+  queue:
+    my-bounded-queue:
+      max-size: 10
+
+  network:
+    join:
+      multicast:
+        enabled: false
+      tcp-ip:
+        enabled: true
+        member-list:
+          - hazelcast1
+          - hazelcast2
+          - hazelcast3
+
